@@ -1,0 +1,251 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body{
+  font-family: Verdana ,sans-serif;
+  font-size: 20px;
+}
+
+/**/
+
+*
+
+.title {
+
+ color: #9DB0D1;
+ font-family: 'Arapey', serif; 
+ font-size: 60px;
+ text-align: center;
+ margin: 100px 0px 50px 0px;
+
+}
+
+.cub-title {
+  line-height: 24px;
+  text-align:center;
+  color: #000000;
+  Width: 1024px;
+  Height: 48px;
+  margin:0 auto 50px auto; 
+}
+
+.btn {
+  background: #EBAC87;
+  color: white;
+   border: 2px solid white; 
+  font-family: 'Arapey', serif; 
+  font-size: 30px;
+  line-heght:32px;
+  text-transform: uppercase;
+  padding: 24px 50px;
+   border-radius: 10px;
+  cursor: pointer;
+}
+ 
+
+.btn-center {
+   display: block;
+   margin: 0 auto 50px auto;
+
+}
+
+.btn:hover{ 
+  background: white;
+  color:#EBAC87;
+  border: 2px solid #EBAC87;
+}
+.navigation{
+  display: flex;
+  justify-content: center;
+  margin: 0 0 48px 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+  line-heght:24px;
+  display: flex;
+  align-items: center;
+  margin:0px 25px 0px 25px;
+ }
+
+.icon-check{
+   background: #9DB0D1;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   padding:17px 15px 18px 15px;
+   display:block;
+   margin:0px 15px 0px 0px;
+}
+
+.link:hover .icon-check {
+  background:white;
+}
+.link:hover .icon-check svg *{
+  fill:#9DB0D1;
+}
+.caption {
+  font-family: 'Arapey', serif; 
+  text-align: center;
+  font-size: 40px;
+  padding: 252px 0 50px 0; 
+  background: url(../img/bg.png) top / auto 200px repeat-x,
+            linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+}
+.box {
+  width: 350px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.num {
+  width: 60px;
+  height: 60px;
+  background: rgba(235, 172 , 135, 0.4);
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  margin: 0 0 10px 0;
+}
+.midl{
+  background: rgba(235, 172, 135, 0.6);
+}
+.dark{
+  background: #EBAC87
+}
+.image{
+  background: #EBAC87;
+  margin: 0 0 20px;
+}
+.image img{
+  width: 100%;
+  display: block;
+}
+.box-text strong {
+  font-weight: bold;
+}
+.container{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin: 0 auto 35px;
+}
+.holder{
+  background: #87C6EB;
+}
+.container-bottum {
+  background: url(../img/rec3.png)bottom right/auto 475px no-repeat;
+  min-height: 475px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+}
+.hading{
+  width: 600px;
+   font-family: 'Arapey', serif; 
+   color: white;
+   font-size: 40px;
+   line-height: 44px;
+   margin: 0  0 50px 0;
+ }
+ .container-bottum .box-text{
+  width: 600px;
+   }
+ .text{
+  width: 580px;
+ }
+.text-link {
+  text-decoration: underline;
+  color: black;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 50px 0;
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+
+}
+.center-tbn {
+  background: white;
+  color:#EBAC87;
+  border: 2px solid transparent;
+  
+}
+.center-tbn:hover {
+   background: #EBAC87;
+  color: white;
+   border: 2px solid white; 
+}
+.faq{
+  width: 80px;
+  height: 80px;
+  background: #EBAC87;
+  border-radius: 50%;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  line-height: 80px;
+  margin: 0 0 10px 0;
+} 
+.sotial a {
+  text-decoration: none;
+  margin: 0 0 0 32px;
+   justify-content: space-between;
+}
